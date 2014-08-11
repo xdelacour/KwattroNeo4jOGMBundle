@@ -23,6 +23,7 @@ class Configuration implements ConfigurationInterface
         $rootNode->children()
             ->scalarNode('host')->end()
             ->scalarNode('port')->end()
+            ->scalarNode('proxy_dir')->end()
             ->end();
 
         // Here you should define the parameters that are allowed to
